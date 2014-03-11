@@ -14,7 +14,7 @@ Contact Tomboy
 ===============
 Mailing List : tomboy-list@beatniksoftware.com
 
-Bugzilla : http://bugzilla.gnome.org/enter_buy.cgi?product=Tomboy
+Bugzilla : http://bugzilla.gnome.org/enter_bug.cgi?product=Tomboy
 
 Tomboy-library : http://github.com/tomboy-notes/tomboy.library
 
