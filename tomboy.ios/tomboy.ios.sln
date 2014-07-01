@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tomboy.ios", "tomboy.ios\tomboy.ios.csproj", "{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		UnitTesting|Any CPU = UnitTesting|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Release|iPhone.Build.0 = Release|iPhone
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.UnitTesting|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{C826BFB3-B878-4B9E-8D8C-649EFCEDE0F3}.UnitTesting|Any CPU.Build.0 = Debug|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = tomboy.ios\tomboy.ios.csproj
+	EndGlobalSection
+EndGlobal
