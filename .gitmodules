@@ -1,0 +1,3 @@
+[submodule "tomboy-library"]
+	path = tomboy-library
+	url = https://github.com/tomboy-notes/tomboy-library
