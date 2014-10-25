@@ -10,5 +10,12 @@ namespace Tomboy.iOS
 		public NoteViewController (IntPtr handle) : base (handle)
 		{
 		}
+
+		public override void ViewDidLoad () 
+		{
+			Editing = true;
+
+			WebViewer.LoadHtmlString ("<html id=\"content\" contenteditable=\"true\" style=\"font-family: Helvetica\">\n\n <body>\n\n   <div>Enter Note Content here..</div>\n\n  </body>\n\n</html>", null);
+		}
 	}
 }

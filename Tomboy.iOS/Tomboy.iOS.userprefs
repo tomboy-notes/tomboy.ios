@@ -1,6 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.8.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tomboy.iOS/Note/NoteViewController.cs">
+    <Files>
+      <File FileName="Tomboy.iOS/Note/NoteViewController.cs" Line="197" Column="197" />
+      <File FileName="Tomboy.iOS/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
