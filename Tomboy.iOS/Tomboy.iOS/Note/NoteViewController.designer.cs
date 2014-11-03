@@ -16,6 +16,9 @@ namespace Tomboy.iOS
 		MonoTouch.UIKit.UITextField[] NoteTitle { get; set; }
 
 		[Outlet]
+		MonoTouch.UIKit.UITextView TextEditor { get; set; }
+
+		[Outlet]
 		MonoTouch.UIKit.UITextField Title { get; set; }
 
 		[Outlet]
@@ -26,19 +29,24 @@ namespace Tomboy.iOS
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (WebView != null) {
-				WebView.Dispose ();
-				WebView = null;
-			}
-
 			if (Title != null) {
 				Title.Dispose ();
 				Title = null;
 			}
 
+			if (WebView != null) {
+				WebView.Dispose ();
+				WebView = null;
+			}
+
 			if (WebViewer != null) {
 				WebViewer.Dispose ();
 				WebViewer = null;
+			}
+
+			if (TextEditor != null) {
+				TextEditor.Dispose ();
+				TextEditor = null;
 			}
 		}
 	}

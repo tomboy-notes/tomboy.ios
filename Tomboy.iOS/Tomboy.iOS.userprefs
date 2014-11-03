@@ -1,9 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.8.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tomboy.iOS/Note/NoteViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../tomboy-library/Tomboy-library/Tomboy/Note.cs">
     <Files>
-      <File FileName="Tomboy.iOS/Note/NoteViewController.cs" Line="197" Column="197" />
+      <File FileName="Tomboy.iOS/Note/NoteViewController.cs" Line="3" Column="3" />
       <File FileName="Tomboy.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Tomboy.iOS/Notebooks/NotebookTableViewController.cs" Line="1" Column="1" />
+      <File FileName="../tomboy-library/Tomboy-library/Tomboy/Note.cs" Line="1" Column="1" />
+      <File FileName="Tomboy.iOS/Note/NoteViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="Tomboy.iOS/Notebooks/NotebookTableViewSource.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

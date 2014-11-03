@@ -285,16 +285,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1SQ-Bc-sqS">
-                                <rect key="frame" x="0.0" y="115" width="320" height="453"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
-                            </webView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Note Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xsC-BW-n7G">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Note Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xsC-BW-n7G">
                                 <rect key="frame" x="7" y="72" width="313" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
+                            <textView clipsSubviews="YES" contentMode="bottom" fixedFrame="YES" alwaysBounceVertical="YES" pagingEnabled="YES" showsVerticalScrollIndicator="NO" canCancelContentTouches="NO" keyboardDismissMode="onDrag" text="Enter Text Here" translatesAutoresizingMaskIntoConstraints="NO" id="c9D-aQ-KAL">
+                                <rect key="frame" x="0.0" y="110" width="320" height="466"/>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.88235294117647056" blue="0.30196078431372547" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -302,8 +304,8 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="bIb-RC-Oxi"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="TextEditor" destination="c9D-aQ-KAL" id="qEg-AL-lmQ"/>
                         <outlet property="Title" destination="xsC-BW-n7G" id="klF-Ss-THc"/>
-                        <outlet property="WebViewer" destination="1SQ-Bc-sqS" id="ly6-PB-IPc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="85" userLabel="First Responder" sceneMemberID="firstResponder"/>
